@@ -131,7 +131,17 @@ If no version is mentioned, by default it goes with __latest__
 
 
 
+# CREATING AN IMAGE 
 
+## Python-Flask Example:
+
+- docker build -t mohdhaseeb/hey-python-flask:0.0.1.RELEASE .
+
+![](./images/img_5)
+
+- docker container run -d  -p 4000:3000 mohdhaseeb/hey-python-flask:0.0.1.RELEASE 
+
+- docker push mohdhaseeb/hey-python-flask:0.0.1.RELEASE 
 
 
 
